@@ -144,7 +144,7 @@ a:after {
   }
 
   article {
-    width: 40%;
+    width: 80%;
   }
   article:nth-of-type(-n + 2) {
     --j: 1;
