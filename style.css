@@ -27,7 +27,7 @@ header {
   margin: 1rem;
   padding: 1em 0;
   border-radius: .5em;
-  min-width: 50%;
+  min-width: 95%;
   background: #fff;
   text-align: center;
 }
@@ -37,7 +37,7 @@ article {
   margin: 1rem;
   width: 21em;
   min-width: 15rem;
-  border-radius: 1em;
+  border-radius: 10em;
 }
 article:nth-of-type(1) {
   --c0: #0f414c;
