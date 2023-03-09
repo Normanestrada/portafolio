@@ -128,8 +128,8 @@ a:after {
   }
   header:before {
     top: 100%;
-    width: calc(.0625*var(--r));
-    height: calc(2*var(--r) + 1rem);
+    ancho : calc ( .0625 * var ( -r ));
+    altura : calc ( 2 * var ( -r ) + 1rem );
     transform: translate(-50%);
     background: inherit;
   }
@@ -145,7 +145,7 @@ a:after {
 
   article {
     ancho : 40% ;
-    height: 60px; 
+    altura : 100px ;
   }
   article:nth-of-type(-n + 2) {
     --j: 1;
