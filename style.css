@@ -36,8 +36,8 @@ article {
   overflow: hidden;
   margin: 1rem;
   width: 21em;
-  min-width: 30rem;
-  border-radius: 10em;
+  min-width: 15rem;
+  border-radius: 1em;
 }
 article:nth-of-type(1) {
   --c0: #0f414c;
