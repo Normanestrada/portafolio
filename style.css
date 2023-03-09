@@ -35,7 +35,7 @@ header {
 article {
   overflow: hidden;
   margin: 1rem;
-  width: 61em;
+  ancho : 31em ;
   min-width: 15rem;
   border-radius: 1em;
 }
