@@ -145,6 +145,7 @@ a:after {
 
   article {
     ancho : 40% ;
+    height: 60px; 
   }
   article:nth-of-type(-n + 2) {
     --j: 1;
