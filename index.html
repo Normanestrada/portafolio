@@ -52,8 +52,9 @@
 <article>
 <h3>Resumen habilidades</h3>
 <section>
-                                                                                                                           
-</ul>
+ <button onclick="showList()">Ver lista</button>
+
+<ul id="skillsList">
 
   <li>Administración SQL Server</li>
 
@@ -66,6 +67,21 @@
   <li>Microsoft Office 365</li>
 
 </ul>
+
+<script>
+
+  function showList() {
+
+    var list = document.getElementById("skillsList");
+
+    list.style.display = "block";
+
+  }
+
+</script>                                                                                                                          
+
+
+
 
 
 
