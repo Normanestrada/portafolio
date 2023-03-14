@@ -50,43 +50,66 @@
   </section>
 </article>
 <article>
-<h3>Resumen habilidades</h3>
-<section>
- <button onclick="showList()">Ver lista</button>
 
-<ul id="skillsList">
+  <h3>Resumen habilidades</h3>
 
-  <li>Administración SQL Server</li>
+  <section>
 
-  <li>Power BI</li>
+    <button class="small-button" onclick="showList()">Ver lista</button>
 
-  <li>Excel Avanzado</li>
+    <ul id="skillsList">
 
-  <li>Jira</li>
+      <li>Administración SQL Server</li>
 
-  <li>Microsoft Office 365</li>
+      <li>Power BI</li>
 
-</ul>
+      <li>Excel Avanzado</li>
 
-<script>
-function showList() {
+      <li>Jira</li>
 
-  var list = document.getElementById("skillsList");
+      <li>Microsoft Office 365</li>
 
-  if (list.style.display === "none") {
+    </ul>
 
-    list.style.display = "block";
+  </section>
 
-  } else {
+</article>
 
-    list.style.display = "none";
+<style>
+
+  .small-button {
+
+    font-size: 12px; /* Tamaño de la fuente */
+
+    padding: 5px 10px; /* Tamaño del padding */
+
+    border-radius: 4px; /* Radio de los bordes */
 
   }
 
-}
-  
+</style>
 
-</script>                                                                                                                          
+<script>
+
+  function showList() {
+
+    var list = document.getElementById("skillsList");
+
+    if (list.style.display === "none") {
+
+      list.style.display = "block";
+
+    } else {
+
+      list.style.display = "none";
+
+    }
+
+  }
+
+</script>
+
+                                                                                                                          
 
 
 
