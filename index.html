@@ -69,14 +69,22 @@
 </ul>
 
 <script>
+function showList() {
 
-  function showList() {
+  var list = document.getElementById("skillsList");
 
-    var list = document.getElementById("skillsList");
+  if (list.style.display === "none") {
 
     list.style.display = "block";
 
+  } else {
+
+    list.style.display = "none";
+
   }
+
+}
+  
 
 </script>                                                                                                                          
 
