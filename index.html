@@ -51,63 +51,67 @@
 </article>
 <article>
 
-  <!DOCTYPE html>
 
-<html>
 
-<head>
 
-  <title>Lista desplegable de habilidades</title>
 
-</head>
 
-<body>
 
-  <h3>Resumen habilidades</h3>
+ 
 
-  <button onclick="showDropdown()">Ver lista</button>
+  <style>
 
-  <button onclick="selectAll()">Seleccionar todo</button>
+    #skillsList {
 
-  <select id="skillsDropdown" style="display:none;" multiple>
-
-    <option value="administración sql server">Administración SQL Server</option>
-
-    <option value="power Bi">Power BI</option>
-
-    <option value="excel avanzado">Excel Avanzado</option>
-
-    <option value="jira">Jira</option>
-
-    <option value="Microsoft office 365">Microsoft Office 365</option>
-
-  </select>
-
-  <script>
-
-    function showDropdown() {
-
-      var dropdown = document.getElementById("skillsDropdown");
-
-      if (dropdown.style.display === "none") {
-
-        dropdown.style.display = "block";
-
-      } else {
-
-        dropdown.style.display = "none";
-
-      }
+      display: none;
 
     }
 
-    function selectAll() {
+    
 
-      var dropdown = document.getElementById("skillsDropdown");
+    #skillsList li {
 
-      for (var i = 0; i < dropdown.options.length; i++) {
+      display: none;
 
-        dropdown.options[i].selected = true;
+    }
+
+  </style>
+
+
+
+
+
+  <h3>Resumen habilidades</h3>
+
+  <button onclick="showList()">Ver lista</button>
+
+  <ul id="skillsList">
+
+    <li>Administración SQL Server</li>
+
+    <li>Power BI</li>
+
+    <li>Excel Avanzado</li>
+
+    <li>Jira</li>
+
+    <li>Microsoft Office 365</li>
+
+  </ul>
+
+  
+
+  <script>
+
+    function showList() {
+
+      var listItems = document.querySelectorAll("#skillsList li");
+
+      var i;
+
+      for (i = 0; i < listItems.length; i++) {
+
+        listItems[i].style.display = "block";
 
       }
 
@@ -115,9 +119,16 @@
 
   </script>
 
-</body>
 
-</html>
+
+
+
+
+
+
+
+
+
 
                                                                                                                          
                                       
