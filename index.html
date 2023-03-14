@@ -50,6 +50,54 @@
   </section>
 </article>
 <article>
+<style>
+
+  #skillsList {
+
+    display: none;
+
+  }
+
+  #skillsList li {
+
+    display: block;
+
+    margin-left: 20px;
+
+  }
+
+</style>
+
+<h3>Resumen habilidades</h3>
+
+<button onclick="showList()">Ver lista</button>
+
+<ul id="skillsList">
+
+  <li>Administración SQL Server</li>
+
+  <li>Power BI</li>
+
+  <li>Excel Avanzado</li>
+
+  <li>Jira</li>
+
+  <li>Microsoft Office 365</li>
+
+</ul>
+
+<script>
+
+  function showList() {
+
+    var list = document.getElementById("skillsList");
+
+    list.style.display = "block";
+
+  }
+
+</script>
+
 
 
 
