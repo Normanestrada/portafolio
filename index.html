@@ -54,7 +54,9 @@
 
   <button onclick="showDropdown()">Ver lista</button>
 
-  <select id="skillsDropdown" style="display:none;">
+  <button onclick="selectAll()">Seleccionar todo</button>
+
+  <select id="skillsDropdown" style="display:none;" multiple>
 
     <option value="administración sql server">Administración SQL Server</option>
 
@@ -86,7 +88,19 @@
 
     }
 
-  </script>  
+    function selectAll() {
+
+      var dropdown = document.getElementById("skillsDropdown");
+
+      for (var i = 0; i < dropdown.options.length; i++) {
+
+        dropdown.options[i].selected = true;
+
+      }
+
+    }
+
+  </script>
                                       
                                       
 
