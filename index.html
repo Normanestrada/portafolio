@@ -50,39 +50,43 @@
   </section>
 </article>
 <article>
-  <h3>Resumen habilidades</h3>
+<h3>Resumen habilidades</h3>
 
-<button onclick="showDropdown()">Ver lista</button>
+  <button onclick="showDropdown()">Ver lista</button>
 
-<select id="skillsDropdown" style="display:none;">
+  <select id="skillsDropdown" style="display:none;">
 
-  <option value="administración sql server">Administración SQL Server</option>
+    <option value="administración sql server">Administración SQL Server</option>
 
-  <option value="power Bi">Power BI</option>
+    <option value="power Bi">Power BI</option>
 
-  <option value="excel avanzado">Excel Avanzado</option>
+    <option value="excel avanzado">Excel Avanzado</option>
 
-  <option value="jira">Jira</option>
+    <option value="jira">Jira</option>
 
-  <option value="Microsoft office 365">Microsoft Office 365</option>
-                                      
-  function showDropdown() {
+    <option value="Microsoft office 365">Microsoft Office 365</option>
 
-  var dropdown = document.getElementById("skillsDropdown");
+  </select>
 
-  if (dropdown.style.display === "none") {
+  <script>
 
-    dropdown.style.display = "block";
+    function showDropdown() {
 
-  } else {
+      var dropdown = document.getElementById("skillsDropdown");
 
-    dropdown.style.display = "none";
+      if (dropdown.style.display === "none") {
 
-  }
+        dropdown.style.display = "block";
 
-}
+      } else {
 
- 
+        dropdown.style.display = "none";
+
+      }
+
+    }
+
+  </script>  
                                       
                                       
 
