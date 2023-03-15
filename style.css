@@ -8,7 +8,7 @@ html {
   --i: -1;
   --j: -1;
   --r: 0px;
-  height: 100%;
+  height: 80%;
   background: url(https://raw.githubusercontent.com/Normanestrada/portafolio/main/Blog_Pensemos_707x282px_240820.png) 40%/cover #777;
   background-blend-mode: luminosity;
 }
