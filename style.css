@@ -3,6 +3,10 @@
   margin: 0;
   padding: 0;
 }
+<!-- esto controlo el fondo (selecciona el archivo una vez subido, luego descargar y copia esa URL) -->
+
+
+
 
 html {
 
@@ -14,7 +18,7 @@ html {
 
   height: 100%;
 
-  background: url(https://raw.githubusercontent.com/Normanestrada/portafolio/main/Blog_Pensemos_707x282px_240820.png) 30%/cover #777;
+  background: url(https://raw.githubusercontent.com/Normanestrada/portafolio/main/Blog_Pensemos_707x282px_240820.png) 70%/cover #777;
 
   background-blend-mode: luminosity;
 
