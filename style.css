@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
 }
-<!-- esto controlo el fondo (selecciona el archivo una vez subido, luego descargar y copia esa URL) -->
+/* Esto es el fondo cargado en githun, sube el archivo, dale descargar y copia la url */
 
 html {
   --i: -1;
