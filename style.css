@@ -192,7 +192,14 @@ footer {
   padding: 10px;
   border-radius: 50%;
   max-width: 200px;
+
 }
+
+.whatsapp-btn:after {
+  content: none; /* elimina el pseudo-elemento :after */
+}
+
+
 
 @media only screen and (max-width: 600px) {
   .whatsapp-btn {
