@@ -173,5 +173,16 @@ a:after {
 }
 
 
+footer {
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: center;
+}
+
+.whatsapp-btn {
+  display: inline-block;
+  margin-left: 20px;
+  vertical-align: middle;
+}
 
 
