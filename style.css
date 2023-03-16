@@ -181,7 +181,7 @@ footer {
 
 .whatsapp-btn {
   display: inline-block;
-  margin-left: 20px;
+  margin-left: -20px;
   vertical-align: middle;
   margin-top: 500px;
 }
