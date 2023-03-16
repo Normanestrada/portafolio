@@ -171,3 +171,8 @@ a:after {
     padding-left: calc(.5*(1 - var(--i))*(var(--r) - 1rem) + 0.5rem);
   }
 }
+
+.whatsapp-btn {
+  background-image: url(https://raw.githubusercontent.com/Normanestrada/portafolio/main/icono-whatsapp_23-2147516857.jpg) !important;
+}
+
