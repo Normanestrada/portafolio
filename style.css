@@ -175,4 +175,11 @@ a:after {
 .whatsapp-btn {
   background-image: url(https://raw.githubusercontent.com/Normanestrada/portafolio/main/123741.png) !important;
 }
+#whatsapp-btn:after {
+
+  content: none;
+
+}
+
+
 
