@@ -111,6 +111,7 @@ p {
   margin-right: 1em;
   font-size: .875em;
 }
+/*Esto es un botón configurado después después de un link*/
 
 a {
   display: inline-block;
@@ -179,6 +180,7 @@ footer {
   text-align: center;
 }
 
+/*esto es el botón de WhatsApp más una regla especial para que no le afecte el icono a después del link*/
 
 .whatsapp-btn {
   display: inline-block;
@@ -196,7 +198,7 @@ footer {
 }
 
 .whatsapp-btn:after {
-  content: none; /* elimina el pseudo-elemento :after */
+  content: none; /* elimina el pseudo-elemento :after  */
 }
 
 
